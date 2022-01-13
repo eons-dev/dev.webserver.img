@@ -1,0 +1,22 @@
+{
+    "ebbs_next":
+    [
+        {
+            "build": "docker",
+            "config":
+            {
+                "base_image": "eons/img_webserver",
+                "image_name": "eons/img_dev-webserver",
+                "image_os": "debian",
+                "install":
+                [
+                    "libssl-dev",
+                    "python3-pip",
+                    "build-essential",
+                    "cmake",
+                    "docker"
+                ]
+            }
+        }
+    ]
+}
