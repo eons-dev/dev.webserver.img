@@ -1,5 +1,9 @@
 {
-    "ebbs_next":
+    "name": "dev-webserver",
+    "type": "img",
+    "build_in": "github",
+    "clear_build_path": true,
+    "next":
     [
         {
             "build": "docker",
